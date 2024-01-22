@@ -1,0 +1,34 @@
+.course-main-container {
+    text-align: center;
+    padding-top: 100px;
+
+    .border {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 5px;
+        background-color: #ffb606;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .products-main-container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .products-main-container {
+        width: 80% !important;
+    }
+}
